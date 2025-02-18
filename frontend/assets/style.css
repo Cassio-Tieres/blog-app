@@ -1,0 +1,66 @@
+
+body{ 
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    font-family: 'Figtree', sans-serif; 
+    margin: 75px;
+    
+}
+
+.card{ 
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    width: 350px;
+    min-height: 500px; /*altura minima*/
+    height: auto; /*ajusta conforme o conteudo do card*/
+    background-color: #ffffff;
+    border-radius:20px;
+    border: 1px solid #6B6B6B;
+    box-shadow: 8px 8px 0px 0px #000;
+}
+
+.card img { 
+    border-radius: 10px;
+}
+
+.category{ 
+    display: inline-flex; /*torna o layout flexivel sem ocupar toda largura do content*/
+    justify-content: center;
+    width: fit-content;  /*faz category ocupar só o espaço do texto, sem esticar no content*/
+    padding: 5px 12px;
+    font-weight: 700;
+    border-radius: 4px;
+    background-color: #F4D04E;
+}
+
+.content p { 
+    font-size: 14px;
+}
+
+.content h2 { 
+    font-weight: 800;
+}
+
+.card .description{ 
+    font-size: 16px;
+    color: #6B6B6B;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+
+footer{ 
+    display: inline-flex;
+    justify-content: left;
+    gap: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+footer img {
+    width: auto; /* mantém a proporção original da imagem */
+    height: 40px; /* define o tamanho da imagem, ajuste conforme necessário */
+}
