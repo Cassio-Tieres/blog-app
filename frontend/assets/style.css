@@ -61,6 +61,5 @@ footer{
 }
 
 footer img {
-    width: auto; /* mantém a proporção original da imagem */
-    height: 40px; /* define o tamanho da imagem, ajuste conforme necessário */
-}
+    width: auto; 
+    height: 40px; }
